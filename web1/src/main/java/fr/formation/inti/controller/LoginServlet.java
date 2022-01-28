@@ -79,6 +79,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute("message", "You are connected!");
 			session.setAttribute("dateConnection", date);
 			session.setAttribute("userName", user);
+			session.setMaxInactiveInterval(300);
 			
 		}
 		else {

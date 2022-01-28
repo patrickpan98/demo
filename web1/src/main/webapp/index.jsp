@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<%@page import="java.util.Date"%>
 <html lang="fr">
 
 <head>
@@ -21,6 +22,7 @@
     <!-- Icon -->
     <div class="fadeIn first">
       <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      <%= new Date()%>
     </div>
 
     <!-- Login Form -->
